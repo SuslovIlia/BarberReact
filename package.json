@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "private": true,
+  "base": "/BarberReact/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
