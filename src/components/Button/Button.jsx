@@ -1,4 +1,4 @@
-import "./Button.module.css";
+import styles from "./Button.module.css";
 export default function Button({ text, onClack }) {
   return (
     <>
