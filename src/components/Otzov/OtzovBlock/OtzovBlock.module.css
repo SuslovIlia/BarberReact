@@ -1,0 +1,25 @@
+.Img {
+    width: 100px;
+}
+
+.Container {
+    /* margin-left: 200px;
+    max-width: 1250px; */
+    margin-top: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    /* height: 300px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.OtzovBlock {
+    /* text-align: center; */
+    display: flex;
+}

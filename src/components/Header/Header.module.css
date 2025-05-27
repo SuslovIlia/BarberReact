@@ -1,0 +1,86 @@
+.Header {
+    background-color: rgb(232, 223, 216);
+    padding-bottom: 10px;
+
+}
+
+.HeaderTop {
+    /* margin: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    /* position: relative; */
+}
+
+h1 {
+    color: rgb(62, 58, 58);
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    color: rgb(81, 78, 78);
+    font-size: 20px;
+
+
+}
+
+.HeaderTop h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+
+.HeaderBottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.HeaderBottom ul {
+    display: flex;
+    gap: 20px;
+    /* добавь отступы между пунктами */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+li {
+    font-size: 20px;
+    color: rgb(20, 18, 16);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+
+}
+
+.HeaderBottom ul li {
+    position: relative;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.HeaderBottom ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    /* цвет полоски */
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.HeaderBottom ul li:hover::after {
+    transform: scaleX(1);
+}

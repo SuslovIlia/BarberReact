@@ -1,0 +1,25 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    /* можно попробовать убрать */
+}
+
+.heroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+}

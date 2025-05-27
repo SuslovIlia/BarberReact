@@ -1,0 +1,54 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('/img/imgOne.jpg');
+    /* путь к картинке */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+
+/* затемнение */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    /* тёмный полупрозрачный фон */
+    z-index: 1;
+}
+
+.heroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.heroContent h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: rgb(218, 218, 218);
+}
+
+.heroContent p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(218, 218, 218);
+
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////// */
